@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherWise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="site-title">WeatherWise</h1>
+    </header>
+    <div class="container">
+        <h2>5-Day Weather Forecast</h2>
+        <form id="city-form">
+            <label for="city-name">Enter City Name:</label>
+            <input type="text" id="city-name" placeholder="E.g., New York">
+            <button type="submit" class="btn">Get Forecast</button>
+        </form>
+        <div id="weather-container"></div>
+        <div id="recent-searches">
+            <h3>Recent Searches</h3>
+            <ul id="recent-search-list"></ul>
+        </div>
+    </div>
+<script src="/assets/script.js"></script>
+</body>
+</html>
